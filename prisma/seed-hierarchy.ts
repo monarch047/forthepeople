@@ -722,6 +722,12 @@ async function main() {
         { slug: "azara", name: "Azara", nameLocal: "আজৰা", tagline: "Airport Gateway Zone", pop: 110000, area: 180, villages: 45 },
         { slug: "chandrapur", name: "Chandrapur", nameLocal: "চন্দ্ৰপুৰ", tagline: "Brahmaputra Riverside Circle", pop: 63938, area: 125, villages: 60 },
       ]
+    },
+    {
+      slug: "jorhat", name: "Jorhat", nameLocal: "যোৰহাট",
+      tagline: "The Cultural Capital of Assam", population: 1092256, area: 2851,
+      literacy: 82.15, sexRatio: 962, density: 383, active: true,
+      talukCount: 6, villageCount: 848, taluks: [],
     }
   ];
 
