@@ -722,6 +722,12 @@ async function main() {
         { slug: "azara", name: "Azara", nameLocal: "আজৰা", tagline: "Airport Gateway Zone", pop: 110000, area: 180, villages: 45 },
         { slug: "chandrapur", name: "Chandrapur", nameLocal: "চন্দ্ৰপুৰ", tagline: "Brahmaputra Riverside Circle", pop: 63938, area: 125, villages: 60 },
       ]
+    },
+    {
+      slug: "nagaon", name: "Nagaon", nameLocal: "নগাঁও",
+      tagline: "The Rice Bowl of Assam", population: 2823768, area: 3973,
+      literacy: 72.37, sexRatio: 962, density: 711, active: true,
+      talukCount: 8, villageCount: 1412, taluks: [],
     }
   ];
 
