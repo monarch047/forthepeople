@@ -722,6 +722,12 @@ async function main() {
         { slug: "azara", name: "Azara", nameLocal: "আজৰা", tagline: "Airport Gateway Zone", pop: 110000, area: 180, villages: 45 },
         { slug: "chandrapur", name: "Chandrapur", nameLocal: "চন্দ্ৰপুৰ", tagline: "Brahmaputra Riverside Circle", pop: 63938, area: 125, villages: 60 },
       ]
+    },
+    {
+      slug: "sonitpur", name: "Sonitpur", nameLocal: "শোণিতপুৰ",
+      tagline: "City of Blood", population: 1924110, area: 3176,
+      literacy: 67.11, sexRatio: 956, density: 370, active: true,
+      talukCount: 5, villageCount: 1876, taluks: [],
     }
   ];
 
