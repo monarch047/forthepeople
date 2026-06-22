@@ -722,6 +722,12 @@ async function main() {
         { slug: "azara", name: "Azara", nameLocal: "আজৰা", tagline: "Airport Gateway Zone", pop: 110000, area: 180, villages: 45 },
         { slug: "chandrapur", name: "Chandrapur", nameLocal: "চন্দ্ৰপুৰ", tagline: "Brahmaputra Riverside Circle", pop: 63938, area: 125, villages: 60 },
       ]
+    },
+    {
+      slug: "karimganj", name: "Karimganj", nameLocal: "কৰিমগঞ্জ",
+      tagline: "Gateway to Bangladesh", population: 1228686, area: 1809,
+      literacy: 78.22, sexRatio: 963, density: 679, active: true,
+      talukCount: 5, villageCount: 936, taluks: [],
     }
   ];
 
@@ -765,7 +771,7 @@ async function main() {
     if (def.taluks.length > 0) {
       console.log(`✓ ${def.name} + ${def.taluks.length} revenue circles`);
     } else {
-      console.log(`✓ ${def.name} (inactive — no revenue circles seeded)`);
+      console.log(`✓ ${def.name} (active — no revenue circles seeded)`);
     }
   }
 
